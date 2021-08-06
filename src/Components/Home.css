@@ -1,0 +1,54 @@
+.entryheader{
+    color:#282c34;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20%;
+    font-family: Nanum Myeongjo;
+
+}
+.entrysubheader{
+    color:#282c34;
+    margin-left:auto;
+    margin-right:auto;
+    font-weight: lighter;
+    font-family: Nanum Myeongjo;
+    margin-top:-20px
+}
+
+.breathe{
+    animation:fadeIn 80s;
+    color: #f8f0e9;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.homelink{
+    color:#282c34;
+    text-decoration: none;
+    font-family: Nanum Myeongjo;
+    font-weight: bolder;
+}
+
+@keyframes fadeIn{
+    0%{color: antiquewhite;}  
+    5%{color: #282c34;}
+    10%{color: antiquewhite;} 
+    15%{color: #282c34;}
+    20%{color: antiquewhite;} 
+    25%{color: #282c34;}
+    30%{color: antiquewhite;} 
+    35%{color: #282c34;}
+    40%{color: antiquewhite;} 
+    45%{color: #282c34;}
+    50%{color: antiquewhite;} 
+    55%{color: antiquewhite;}  
+    60%{color: #282c34;}
+    65%{color: antiquewhite;} 
+    70%{color: #282c34;}
+    75%{color: antiquewhite;} 
+    80%{color: #282c34;}
+    85%{color: antiquewhite;} 
+    90%{color: #282c34;}
+    95%{color: antiquewhite;} 
+    100%{color: #282c34;}
+    }
