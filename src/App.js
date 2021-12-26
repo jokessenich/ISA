@@ -1,20 +1,18 @@
-import logo from './logo.svg';
 import React from 'react'
 import './App.css';
 import Nav from './Components/Nav.js'
 import Main from './Components/Main.js'
 import Footer from './Components/Footer.js'
+import "animate.css/animate.min.css";
 
 
 class App extends React.Component {
-  constructor(props) {
-    super(props)
-  }
+
     render() {
       return (
         <div className="App">
 
-            <Nav></Nav>
+            {/* <Nav></Nav> */}
                                 
             <Main></Main>
                     

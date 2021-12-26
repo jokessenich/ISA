@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Contact.css"
+import NavBar from './NavBar';
 
 export default class Contact extends React.Component{
 
@@ -15,19 +16,29 @@ render(){
     return(
         <div className="contact-background">
         <h3 className="breathe">breathe</h3>
-
+        <NavBar></NavBar>
         <h1 className="page-header">Sessions</h1>
         <p className="description-section">
-            There are two types of sessions offered. One session option is a conversation with Corky Matson & John Kessenich via zoom. In this session they will intuitively guide you on your internal journey of connecting with your low self. The session will be between 1 and 2 hours. A few followups in the weeks ahead are usually desired by the practitioner.
+            Virtual: An inner exploration with Corky Matson & John Kessenich via zoom. In this session they will guide you on your internal journey of connecting and working with your low self. The session will be between 1 and 2 hours.
+{<br />}{<br />}
 
-            An alternate session option is with John Kessenich in person. In this session, John will offer hands on body work that targets the physiological root of emotional blockages. This will include low self work, breath work, visualization, recall, and touch.
+In Person: John offers two ways of connecting in person. 
+<li className = "session-types">An hour and a half session which, if desired, may include body work to clear energetic patterns.</li>
+<li className = "session-types">A full day healing journey. John may be willing to travel to facilitate a healing journey.  </li>
 
-            The suggested cost for these services is $150, but we prefer that you schedule the service and then pay what you feel comfortable giving, after receiving the treatment. For those with less resources, we accept what you can afford.
+            Current location: Santa Cruz, CA
+            {<br />}{<br />}
+        
+        We prefer that you schedule the service, receive the treatment and then pay what you feel comfortable giving. 
+        Suggested donation for a 1-2 hour session is $150.
+        
         </p>
+        <div className="contact-section">
         {this.state.hidden?<h3 onClick = {()=>this.setState({hidden:false})}>Click here for contact information</h3>:""}
         {this.state.hidden?'':<div id = "contactInfo">
-            <h3>For sessions or questions: <br /><br /><a className="uxhomelink" href="mailto:integrativeselfanalysis@gmail.com">integrativeselfanalysis (at) gmail.com </a></h3>
+            <h3 className="emailLink">For sessions or questions: </h3><br /><br /><a className="emailLink bigger" href="mailto:embracingourinnerselves@gmail.com">embracingourinnerselves (at) gmail.com </a>
             </div>}
+            </div>
         </div>
     )
 }

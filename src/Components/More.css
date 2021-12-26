@@ -1,9 +1,10 @@
 .description-section{
+    color: #f8f0e9;
     padding: 10%;
     font-family: Nanum Myeongjo;
     font-size: 18pt;
     line-height: 2.5rem;
-    animation: fadeInUxhome 5s;
+    animation: faderIn 5s;
     text-align: left;
 }
 
@@ -14,6 +15,7 @@
 }
 
 .more-background{
-    background-color: #f8f0e9;
-
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)),url('../Images/jungleGreen.jpg');
+    background-size: cover;
+    background-position: center;
 }

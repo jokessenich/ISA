@@ -8,7 +8,7 @@ export default class Uxhome extends React.Component {
 
     render(){
         return(
-            <div className="ux-home">
+            <div className="ux-home overlay">
                 <h3 className="breathe">breathe</h3>
                 <h1 className="page-header">Home</h1>
 
@@ -24,7 +24,7 @@ export default class Uxhome extends React.Component {
                     You are the only one who can bring peace to your inner world. Only then will you bring peace to the outer world. 
                     {<br />}{<br />}
                     {<br />}{<br />}
-                    <Link to="about" className="page-link">More</Link>
+                    {/* <Link to="about" className="page-link">More</Link> */}
 
                 </p>
 
