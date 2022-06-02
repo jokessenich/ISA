@@ -24,13 +24,12 @@ render(){
 
 In Person: John offers two ways of connecting in person. 
 <li className = "session-types">An hour and a half session which, if desired, may include body work to clear energetic patterns.</li>
-<li className = "session-types">A full day healing journey. John may be willing to travel to facilitate a healing journey.  </li>
+<li className = "session-types">A full day healing journey.</li>
 
             Current location: Santa Cruz, CA
             {<br />}{<br />}
         
         We prefer that you schedule the service, receive the treatment and then pay what you feel comfortable giving. 
-        Suggested donation for a 1-2 hour session is $150.
         
         </p>
         <div className="contact-section">

@@ -1,6 +1,6 @@
 .podcast-background{
     background-color: #051805;
-    height:100vh;
+    height:100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,6 +8,12 @@
 }
 
 .subheader{
+    color:#f8f0e9;
+    font-family: Nanum Myeongjo;
+    font-weight: 200;
+}
+
+.episode-name{
     color:#f8f0e9;
     font-family: Nanum Myeongjo;
     font-weight: 200;
