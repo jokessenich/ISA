@@ -2,8 +2,7 @@ import React from 'react'
 import './Home.css'
 import '../App.css';
 import NavBar from './NavBar.js'
-
-
+import PodcastLinks from './PodcastLinks';
 import {Link} from 'react-router-dom'
 //import Context from '../../Context'
 
@@ -15,8 +14,9 @@ export default class Home extends React.Component {
                 <div className="top-half">
                 <h3 className="breathe">breathe</h3>
                 <NavBar></NavBar>
+                <PodcastLinks></PodcastLinks>
 
-                <Link to='/home' className="entryheader">Embracing Our Inner Selves</Link>
+                <Link to='/' className="entryheader">Embracing Our Inner Selves</Link>
 
                 </div>
 

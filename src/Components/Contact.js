@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Contact.css"
 import NavBar from './NavBar';
+import PodcastLinks from './PodcastLinks';
 
 export default class Contact extends React.Component{
 
@@ -17,6 +18,8 @@ render(){
         <div className="contact-background">
         <h3 className="breathe">breathe</h3>
         <NavBar></NavBar>
+        <PodcastLinks></PodcastLinks>
+
         <h1 className="page-header">Sessions</h1>
         <p className="description-section">
             Virtual: An inner exploration with Corky Matson & John Kessenich via zoom. In this session they will guide you on your internal journey of connecting and working with your low self. The session will be between 1 and 2 hours.

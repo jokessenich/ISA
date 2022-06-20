@@ -32,30 +32,6 @@ export default class Main extends React.Component{
             <Route path = '/podcast' component = {Podcast}></Route>
 
 
-{/*}
-            <Route path = '/register' component = {Register}></Route>
-
-            <Route path = '/login' component = {Login}></Route>
-
-            <Route path = '/maladylist' component = {MaladyList}></Route>
-
-            <Route path = '/addremedy' component = {AddRemedy}></Route>
-
-            <Route path = '/addmalady' component = {AddMalady}></Route>
-
-            <Route path = '/search' component = {SearchResults}></Route>
-
-            <Route path = '/malady/:id' component = {Malady}></Route>
-
-            <Route path = '/maladynotfound/:name' component = {MaladyNotFound}></Route>
-
-            <Route path = '/ErrorPage' component = {ErrorPage}></Route>
-
-            <Route path = '/searchresults/:searchterm' component = {SearchResults}></Route>
-
-            <Route path = '/searchsymptoms/:searchterm' component = {SearchSymptoms}></Route>
-        */}
-
         </Switch>            
         )
     }

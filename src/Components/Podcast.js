@@ -1,6 +1,7 @@
 import React from 'react';
 import './Podcast.css'
 import NavBar from './NavBar'
+import PodcastLinks from './PodcastLinks';
 
 export default class Podcast extends React.Component{
 
@@ -17,6 +18,8 @@ render(){
         <div className="podcast-background">
             <h3 className="breathe">breathe</h3>
             <NavBar></NavBar>
+            <PodcastLinks></PodcastLinks>
+
             <h1 className="page-header">Podcast </h1>
 
             <h2 className="subheader">Episodes</h2>
