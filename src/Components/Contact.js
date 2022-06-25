@@ -22,12 +22,15 @@ render(){
 
         <h1 className="page-header">Sessions</h1>
         <p className="description-section">
-            Virtual: An inner exploration with Corky Matson & John Kessenich via zoom. In this session they will guide you on your internal journey of connecting and working with your low self. The session will be between 1 and 2 hours.
+            Virtual: An inner exploration with Corky Matson and/or John Kessenich via zoom. In this session they will guide you on your internal journey of connecting and working with your low self. The session will be between 1 and 2 hours.
 {<br />}{<br />}
 
-In Person: John offers two ways of connecting in person. 
-<li className = "session-types">An hour and a half session which, if desired, may include body work to clear energetic patterns.</li>
-<li className = "session-types">A full day healing journey.</li>
+In Person: John offers three ways of connecting in person. 
+<li className = "session-types">An inner exploration with interactive imagery only</li>
+<li className = "session-types">An inner exploration with integrated body work to clear energetic patterns.</li>
+<li className = "session-types">An inner exploration with Reiki</li>
+
+
 
             Current location: Santa Cruz, CA
             {<br />}{<br />}
