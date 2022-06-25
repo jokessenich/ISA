@@ -32,7 +32,7 @@ In Person: John offers three ways of connecting in person.
 
 
 
-            Current location: Santa Cruz, CA
+            Current location: Ann Arbor, MI
             {<br />}{<br />}
         
         We prefer that you schedule the service, receive the treatment and then pay what you feel comfortable giving. 
