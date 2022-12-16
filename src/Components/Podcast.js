@@ -39,7 +39,9 @@ render(){
             {<br />}
             <h3 className='episode-name'>Episode 5 - Letting Go</h3>
             <iframe title="Letting Go" allowtransparency="true" height="150" width="50%" style={{border: "none", minWidth: "min(100%, 430px)"}} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=qssnn-12f177a-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=f6f6f6&font-color=auto&logo_link=episode_page&btn-skin=666666"></iframe>
- 
+            {<br />}
+            <h3 className='episode-name'>Episode 6 - The High Self and Prayer</h3>
+            <iframe title="High Self and Prayer" allowtransparency="true" height="150" width="50%" style={{border: "none", minWidth: "min(100%, 430px)"}} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=mijn3-133d930-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=f6f6f6&font-color=auto&logo_link=episode_page&btn-skin=666666"></iframe>
             <div className="contact-section">
                 {this.state.hidden?<h3 onClick = {()=>this.setState({hidden:false})}>We welcome guests on our podcast as well as requested topics that listeners would like to hear more about.  {<br />} {<br />}{<br />}Click here for contact information</h3>:""}
                 {this.state.hidden?'':<div id = "contactInfo">
